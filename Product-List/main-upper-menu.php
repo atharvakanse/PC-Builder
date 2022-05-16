@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div class="upper-content shadow">
+    <div class="upper-content shadow w-100">
         <div>
             <img src="images/main-logo.jpg" id="main-logo" alt="logo">
         </div>
@@ -24,6 +24,7 @@
             <li class="col-sm-1 "><img src="icons/bell.svg" id="shopping-cart" alt="cart"></li>
         </ul>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
