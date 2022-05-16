@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PC Builder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css-styles/product-list-css.css">
+    <link rel="stylesheet" href="css-styles/product-style.css">
     <style>
         #b-crumb > li > a:hover {
             text-decoration: underline !important;
         }
         #navigation {
-            margin-top: 6rem;
+            margin-top: 2rem;
         }
         #navigation > ul > li > button {
             color: black;
@@ -55,31 +55,36 @@
                 </nav>
             </div>
             <div class="col-xl-6 product-image">
-                <img src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-1.jpg" alt="">
+                <img id="main-prod-image" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-1.jpg" alt="">
                 <div class="mt-4 d-flex d-inline-flex justify-content-center prod-images">
-                    <img class="product-preview ms-0" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-2.jpg" alt="">
-                    <img class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-3.jpg" alt="">
-                    <img class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-5.jpg" alt="">
-                    <img class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-1.jpg" alt="">
+                    <img id="prod-image1"class="product-preview ms-0" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-2.jpg" alt="">
+                    <img id="prod-image2" class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-3.jpg" alt="">
+                    <img id="prod-image3" class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-5.jpg" alt="">
+                    <img id="prod-image4" class="product-preview" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-1.jpg" alt="">
                 </div>
             </div>
             <div class="col-xl-6" id="product-details">
                 <h3>PHANTEKS PCI-E 4.0 X16 300mm RISER CABLE (BLACK) (PH-CBRS4.0-FL30)</h3>
-                <div class="share d-flex justify-content-end"><img class="size-14"  src="icons/share.svg" alt=""></div>
+                
+                <div class=" share d-flex justify-content-end">
+                    <a href="#"class="share-popover" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                        <img class="size-14"  src="icons/share.svg" alt="">
+                    </a>
+                </div>
                 <hr>
                 <h4>₹5,290.00</h4>
                 <span class="ms-2">Inclusive of all taxes</span>                
                 <hr>
-                <div class="d-flex" id="product-eligibility">
-                    <div class="d-flex flex-column method1 mt-1">
+                <div class="d-flex" id="product-eligible">
+                    <div class="d-flex flex-column method1 mt-1 me-4">
                         <img class="size-22" src="images/payment-method.png" alt="">
                         <h6 class="mt-2">Pay On Delivery</h6>
                     </div>
-                    <div class="d-flex flex-column method2 mt-1">
+                    <div class="d-flex flex-column method2 mt-1 ms-4 me-4">
                         <img class="size-22" src="icons/repeat.svg" alt="">
                         <h6 class="mt-2">15 Days Replacement</h6>
                     </div>
-                    <div class="d-flex flex-column method3 mt-1">
+                    <div class="d-flex flex-column method3 mt-1 ms-4">
                         <img class="size-22" src="icons/shield.svg" alt="">
                         <h6 class="mt-2">1 Year Warranty</h6>
                     </div>
@@ -207,11 +212,5 @@
     </div>
     <?php include "main-footer.php" ?>
     <!-- <script src="product-list.js"></script> -->
-    <script>
-        const firstTabEl = document.querySelector('#myTab li:first-child button')
-        const firstTab = new bootstrap.Tab(firstTabEl)
-
-        firstTab.show()
-    </script>
-</body>
+    </body>
 </html>
