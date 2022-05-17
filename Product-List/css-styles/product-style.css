@@ -1,0 +1,242 @@
+.upper-content {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+}
+
+#main-logo {
+    width: 5rem;
+    height: 4.5rem;
+}
+
+#main-logo:hover{
+    cursor: pointer;
+}
+
+.upper-content > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* width: 18rem !important; */
+}
+
+.upper-content > ul > div > li {
+    width: 8rem;
+    /* border: 2px solid black; */
+    margin: 0px;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    padding-top: .5rem;
+    font-weight: bold;
+    font-size: initial;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.upper-content > ul > div {
+    padding: .2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.upper-content > ul > div:hover{
+    background-color: #fd7e14;
+    cursor: pointer;
+}
+
+.upper-content > .right-side-options {
+    justify-content: end;
+}
+
+.upper-content > .right-side-options > li {
+    padding: 0px;
+    margin: 0px;
+}
+
+#shopping-cart {
+    margin: .5rem;
+}
+
+.main-content > div {
+    margin: 1rem;
+}
+
+.main-content > div > .pc-components{
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    /* margin: 1rem; */
+    margin-left: 2rem;
+    padding: .5rem;
+    height: fit-content;
+}
+
+.main-content > .products-list {
+    /* border: 2px solid black; */
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 0px;
+
+}
+
+.main-content > .products-list > div > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content > div > .pc-components > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: .5rem;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.main-content > div > .pc-components > ul> li:hover {
+    color: orange;
+    cursor: pointer;
+}
+.main-content > div > .pc-components > ul > hr {
+    background-color: grey;
+    height: .6px;
+}
+
+.main-content > div > .pc-components > div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content > .products-list > .card {
+    display: flex;
+    flex-direction: revert;
+    height: fit-content;
+}
+
+.footer > .left-side-col {
+    margin: .5rem;
+    width: fit-content;
+}
+
+.footer > .left-side-col > img {
+    width: 5rem;
+    height: 5rem;
+    
+}
+
+.footer > .middle-col {
+    width: fit-content;
+    margin: .5rem;
+}
+
+.footer > .middle-col > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    margin: 0px;
+    margin-left: -26px;
+}
+
+.footer > .middle-col > ul > li {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.footer > .middle-col > ul > li:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.footer > .right-side-col {
+    width: fit-content !important;
+    margin: .5rem;
+}
+
+.footer > .right-side-col > .newsletter-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer > .right-side-col > .newsletter-block > input[type="text"] {
+    width: 20rem;
+    margin-right: 0.5rem;   
+    font-size: 14px;
+    border: 2px solid black;
+}
+
+.footer > .right-side-col > .newsletter-block > button {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    background: orange;
+    border: none;
+}
+
+.copyright {
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.main-content > div > .brand-filter .price-filter .style-filter .cooler-type-filter 
+.fan-led-filter .fan-size-filter .stock-status-filter {
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    /* margin: 1rem; */
+    margin-left: 2rem;
+    padding: .5rem;
+    height: fit-content;
+}
+
+
+.main-content > div > .brand-filter > div > label {
+    font-size: 14px;
+}
+
+.main-content > div > .brand-filter > div > input[type="checkbox"]:checked {
+    background-color: orange;
+}
+
+.main-content > div > .brand-filter > div > label:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.main-content > div > div > select {
+    border: 2px solid black;
+    width: 21rem;
+    font-size: 14px;
+}
+
+#product-details > hr  {
+    color: #808080b3;
+    width: 100%;
+}
+
+.size-14 {
+    width: 20px;
+    height: 20px;
+}
+
+.size-22 {
+    width: 22px;
+    height: 22px;
+}
+
+#product-eligible > .method1 .method2 .method3 {
+    width: 10rem;
+}
+
+#product-eligible > .method1 .method2 .method3 > img {
+    display: flex;
+    align-self: center;
+}
