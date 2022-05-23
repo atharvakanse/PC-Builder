@@ -187,8 +187,8 @@
     font-weight: bold;
 }
 
-.main-content > div > .brand-filter .price-filter .style-filter .cooler-type-filter 
-.fan-led-filter .fan-size-filter .stock-status-filter {
+.main-content > div > .brand-filter, .price-filter, .style-filter,
+ .cooler-type-filter, .fan-led-filter, .fan-size-filter, .stock-status-filter {
     border: 2px solid lightgrey;
     border-radius: 6px;
     /* margin: 1rem; */

@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="../Product-List/css-styles/product-style.css">
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
 
@@ -16,7 +17,7 @@
             <!------------------------------------------------HOME SECTION------------------------------------------------------------->
 
 
-        <div class="container">
+        <div class="container w-100">
 
             <nav class="nav-bar">
                 <ul>
@@ -96,49 +97,49 @@
 
                     <div class="gallery">
                         <a href="https://www.w3schools.com/default.asp" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\w3schools.png" alt="Cinque Terre" class="logo">
+                        <img src="logo/w3schools.png" alt="Cinque Terre" class="logo">
                         </a>
                         <div class="desc">W3 Schools</div>
                     </div>
                     
                     <div class="gallery">
                         <a href="https://developer.mozilla.org/en-US/" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\mdn web docs.png" alt="Forest" class="logo">
+                        <img src="logo/mdn-web-docs.png" alt="Forest" class="logo">
                         </a>
                         <div class="desc">MDN Web Docs</div>
                     </div>
                     
                     <div class="gallery">
                         <a href="https://color.adobe.com/create/image" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\adobe color.png" alt="Northern Lights" class="logo">
+                        <img src="logo/adobe-color.png" alt="Northern Lights" class="logo">
                         </a>
                         <div class="desc">Adobe Color</div>
                     </div>
                     
                     <div class="gallery">
                         <a href="https://getbootstrap.com" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\bootstrap.png" alt="Mountains" class="logo">
+                        <img src="logo/bootstrap.png" alt="Mountains" class="logo">
                         </a>
                         <div class="desc">Bootstrap</div>
                     </div>
 
                     <div class="gallery">
                         <a href="https://unsplash.com" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\unsplash.png" alt="Mountains" class="logo">
+                        <img src="logo/unsplash.png" alt="Mountains" class="logo">
                         </a>
                         <div class="desc">Unsplash</div>
                     </div>
 
                     <div class="gallery">
                         <a href="https://www.figma.com" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\figma.png" alt="Mountains" class="logo">
+                        <img src="logo/figma.png" alt="Mountains" class="logo">
                         </a>
                         <div class="desc">Figma</div>
                     </div>
                     
                     <div class="gallery">
                         <a href="https://github.com" target="_blank">
-                        <img src="C:\Users\91787\Desktop\Project\logo\github.png" alt="Mountains" class="logo">
+                        <img src="logo/github.png" alt="Mountains" class="logo">
                         </a>
                         <div class="desc">GitHub</div>
                     </div>
@@ -146,38 +147,9 @@
                 </div>
                   
             </section>
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php include "../product-List/main-footer.php" ?>
-
+        <!-- <?php include "../Product-List/main-footer.php" ?> -->
+      
     </body>
 
 
