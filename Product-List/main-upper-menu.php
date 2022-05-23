@@ -15,7 +15,7 @@
             <img src="images/main-logo.jpg" id="main-logo" alt="logo">
         </div>
         <ul class="row w-100 left-side-options">
-            <div class="col-sm-2"><li>Home</li></div>
+            <div class="col-sm-2"><li><a class="text-decoration-none text-black" href="Landing-page/main.php" target="_blank"> Home </a></li></div>
             <div class="col-sm-2"><li>About Us</li></div>
             <div class="col-sm-2"><li>Contact Us</li></div>
         </ul>

@@ -101,8 +101,12 @@
     font-size: 14px;
 }
 
+.main-content > div > .pc-components > ul> li {
+    text-decoration: none;
+}
+
 .main-content > div > .pc-components > ul> li:hover {
-    color: orange;
+    color: orange !important;
     cursor: pointer;
 }
 .main-content > div > .pc-components > ul > hr {
@@ -118,7 +122,7 @@
 .main-content > .products-list > .card {
     display: flex;
     flex-direction: revert;
-    height: fit-content;
+    height: 28rem !important;
 }
 
 .footer > .left-side-col {
@@ -239,4 +243,10 @@
 #product-eligible > .method1 .method2 .method3 > img {
     display: flex;
     align-self: center;
+}
+
+.main-content > .products-list > .card > .card-body > div > p{
+        text-decoration: solid;
+        font-weight: bold;
+        font-size: 20px;
 }
