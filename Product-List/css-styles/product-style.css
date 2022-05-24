@@ -122,7 +122,7 @@
 .main-content > .products-list > .card {
     display: flex;
     flex-direction: revert;
-    height: 28rem !important;
+    height: 28rem;
 }
 
 .footer > .left-side-col {
@@ -249,4 +249,4 @@
         text-decoration: solid;
         font-weight: bold;
         font-size: 20px;
-}
+}   

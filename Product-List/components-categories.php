@@ -3,17 +3,16 @@
             <div class="pc-components mt-4 w-100 shadow-sm">
                 <div class="fw-bold fs-26 mb-2 ms-2"><p>Components Categories</p></div>
                 <ul class="fw-bold">
-                    <li><a class="text-decoration-none text-black" href="processors-list.php" target="_blank"> Processor</a></li><hr>
-                    <li>Motherboard</li><hr>
-                    <li>RAM</li><hr>
-                    <li>Storage 1</li><hr>
-                    <li>Storage 2</li><hr>
-                    <li>Cabinet</li><hr>
-                    <li>Cooler</li><hr>
-                    <li>Graphics Card</li><hr>
-                    <li>Power Supply Unit</li><hr>
-                    <li>Monitor</li><hr>
-                    <li>Accessories</li><hr>
+                    <li><a class="text-decoration-none text-black" href="processors-list.php"> Processor</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="motherboards-list.php"> Motherboard</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="rams-list.php"> RAM</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="storages-list.php"> Storage</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="cabinets-list.php"> Cabinet</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="coolers-list.php"> Coolers</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="graphics-cards-list.php"> Graphics Card</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="power-supply-units-list.php"> Power Supply Unit</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="monitors-list.php">Monitor</a></li><hr>
+                    <li><a class="text-decoration-none text-black" href="products-list.php">Accessories</a></li><hr>
                 </ul>
             </div>
             <div class="price-filter mt-4 w-100 shadow-sm">
@@ -23,6 +22,7 @@
                     <input type="range" class="ms-2 form-range" min="0" max="5" step="0.5" id="customRange3">
                 </div>
             </div>
+            
             <div class="brand-filter mt-4 w-100 shadow-sm">
                 <div class="fw-bold fs-26 mb-2 ms-2"><p>Filter By Brand</p><hr></div>
                 <div class="form-check ms-2 mb-2">

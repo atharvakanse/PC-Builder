@@ -30,7 +30,7 @@
             font-size: 20px;
         }
 
-
+        
     </style>
 </head>
 <body>
@@ -42,7 +42,7 @@
             <div class="col-xl-3 card m-2 shadow row">
                 <img class="col-sm-12" src="images/Phanteks-PCI-E-4.0X16-300mm-Riser-Cable-Black-1.jpg" alt="product image">
                 <div class="card-body col-sm-12">
-                    <a href="main-products-details.php"><h5>PHANTEKS PCI-E 4.0 X16 300mm RISER CABLE (BLACK) (PH-CBRS4.0-FL30)</h5></a>
+                    <a href="main-products-details.php"  target="_blank"><h5>PHANTEKS PCI-E 4.0 X16 300mm RISER CABLE (BLACK) (PH-CBRS4.0-FL30)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,290.00</p>
                     </div>
@@ -120,8 +120,25 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- <div class="accordion" id="brand-accordian">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <p class="fw-bold fs-26 ">Filter Brand</p><hr>
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#brand-accordian">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>    
     </div>
+
 
     <?php include "main-footer.php" ?>
 
