@@ -8,6 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css-styles/product-style.css">
 
+    <style>
+        #cart > div > .title {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            font-size: 3rem;    
+        }
+    </style>
+
 </head>
 <body>
     <div class="upper-content shadow w-100">
@@ -15,12 +24,12 @@
             <img src="images/main-logo.jpg" id="main-logo" alt="logo">
         </div>
         <ul class="row w-100 left-side-options">
-            <div class="col-sm-2"><li><a class="text-decoration-none text-black" href="Landing-page/main.php" target="_blank"> Home </a></li></div>
-            <div class="col-sm-2"><li>About Us</li></div>
-            <div class="col-sm-2"><li>Contact Us</li></div>
+            <div class="col-sm-2"><li><a class="text-decoration-none text-black" href="../Landing-page/main.php" target="_blank"> Home </a></li></div>
+            <div class="col-sm-2"><li><a class="text-decoration-none text-black" href="../Landing-page/main.php #about-us" target="_blank"> About Us </a></li></div>
+            <div class="col-sm-2"><li><a class="text-decoration-none text-black" href="">Contact Us </a></li></div>
         </ul>
         <ul class="row w-100 right-side-options">
-            <li class="col-sm-1 "><img src="icons/shopping-cart.svg" id="shopping-cart" alt="cart"></li>
+            <li class="col-sm-1 "><a href="cart.php"><img src="icons/shopping-cart.svg" id="shopping-cart" alt="cart"></a></li>
             <li class="col-sm-1 "><img src="icons/bell.svg" id="shopping-cart" alt="cart"></li>
         </ul>
     </div>

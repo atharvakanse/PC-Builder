@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 30rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹6,260.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -52,6 +55,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">ADATA XPG GAMMIX D30 16GB (16GBx1) DDR4 3200MHZ DESKTOP RAM (RED) (AX4U320016G16A-SR30)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹4,990.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -62,6 +68,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹2,699.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">CORSAIR Desktop Vengence LPX Series - 16GB (16GBx1) DDR4 3000MHz RAM (CMK16GX4M1D3000C16)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,490.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹33,500.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -89,17 +104,18 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹34,750.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <?php include "main-footer.php" ?>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>            
             
-            
-            
-            
+

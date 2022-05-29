@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹3,900.00.png</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -52,6 +55,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">ASUS ROG RYUJIN II 360 ALL-IN-ONE CPU LIQUID COOLER WITH 3.5 INCH LCD</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹24,500.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -62,6 +68,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹1,770.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">CORSAIR H100X 120MM SP SERIES CPU LIQUID COOLER (CW-9060040-WW)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹8,275.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹2,230.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -88,6 +103,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">GIGABYTE AORUS 240 ARGB Liquid Cooler</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹13,550.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>

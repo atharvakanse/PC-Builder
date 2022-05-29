@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹8,840.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -52,6 +55,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">ANT ESPORTS 690 NEO PRO 128GB M.2 NVME SSD (8906136071001)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹1,790.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -62,6 +68,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹2,210.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">CORSAIR MP600 CORE 2TB M.2 NVME GEN4 INTERNAL SSD (CSSD-F2000GBMP600COR)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹22,790.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹8,350.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -88,6 +103,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">GIGABYTE AORUS 500GB M.2 NVMe GEN4</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹10,400.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>

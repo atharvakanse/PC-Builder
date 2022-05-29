@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹25,200.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -53,6 +56,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹29,980.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -61,7 +67,10 @@
                     <a href="main-products-details.php"><h5 class="text-center">BENQ EW3270U 4K HDR 31.5 INCH WITH EYE-CARE GAMING MONITOR</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹30,650.00/p>
-                    </div>
+                            </div>
+                            <div class="d-flex w-100 align-items-center justify-content-center">
+                                <button type="button" class="btn btn-primary">Add to Cart</button>                
+                            </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">DELL P2722H PROFESSIONAL 27 INCH FULL HD MONITOR (BLACK)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹20,900.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹18,480.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -88,6 +103,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">LG 25UM58-P Ultra Wide Borderless Monitor</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹14,500.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -100,6 +118,6 @@
 </body>
 </html>            
             
-            
-            
-            
+
+
+

@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹2,790.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -52,6 +55,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">ANTEC CSK 750H SEMI MODULAR 750 WATT 80 PLUS BRONZE CERTIFIED POWER SUPPLY</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,550.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -62,6 +68,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹28,700.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">COOLER MASTER G600 GOLD 80 PLUS GOLD POWER SUPPLY (MPW-6001-ACAAG)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,740.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹16,100.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -88,6 +103,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">DEEPCOOL DQ850-M-V2L POWER SUPPLY</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹8,500.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -99,7 +117,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>            
-            
+
             
             
             

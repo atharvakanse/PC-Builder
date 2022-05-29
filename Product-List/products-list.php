@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -46,6 +46,10 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,290.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary" id="liveToastBtn">Add to Cart</button>                
+                    </div>
+                    <?php include "toast.php"?>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -54,6 +58,9 @@
                     <a href="main-products-details.php"><h5>RAZER SEIREN MINI STREAMING MICROPHONE (MERCURY) (RZ19-03450300-R3M1)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹3,699.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -64,6 +71,10 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹4,990.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
+
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -72,6 +83,9 @@
                     <a href="main-products-details.php"><h5>RASUS ROG CLAVIS USB-C To 3.5MM GAMING DAC (90YH02N0-B2UA00)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹8,500.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -82,6 +96,10 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹5,290.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
+
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -90,6 +108,9 @@
                     <a href="main-products-details.php"><h5>PHANTEKS DIGITAL RGB LED COMBO STRIPS (PH-DRGBLED-CMBO-01)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹1,890.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -100,6 +121,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹1,700.00</p>
                     </div>
+                    <div class="d-flex w-100 mt-0 m-2 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -108,6 +132,9 @@
                     <a href="main-products-details.php"><h5>ARCTIC MX-5 THERMAL PASTE 4G WITHOUT SPATULA (ACTCP00045A)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹800.00</p>
+                    </div>
+                    <div class="d-flex w-100 mt-0 m-2 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -118,9 +145,15 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹1,300.00</p>
                     </div>
+                    <div class="d-flex w-100 mt-0 m-2 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
-
+            
+            <div class="w-100 d-flex justify-content-center mt-4">
+                <button type="button" class="btn btn-primary btn-lg justify-content-center align-items-center" onclick="location.href='../Payment-page/payment-page.php'">Place Order<img class="ms-2 me-2 mt-0 text-light" src="icons/arrow-right-circle.svg" alt=""></button>                
+            </div>
             <!-- <div class="accordion" id="brand-accordian">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -139,9 +172,8 @@
         </div>    
     </div>
 
-
+    
     <?php include "main-footer.php" ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

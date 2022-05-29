@@ -21,7 +21,7 @@
         .main-content > .products-list > .card {
             display: flex;
             flex-direction: revert;
-            height: 28rem !important;
+            height: 34rem !important;
         }
 
         .main-content > .products-list > .card > .card-body > div > p{
@@ -44,6 +44,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹4,490.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -52,6 +55,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">Antec DF600 FLUX ARGB Cabinet (Black)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹6,080.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -62,6 +68,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹24,800.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -70,6 +79,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">COOLER MASTER HAF 500 MID TOWER - BLACK (H500-KGNN-S00)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹9,890.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>
@@ -80,6 +92,9 @@
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹20,590.00</p>
                     </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3 card m-2 shadow row">
@@ -88,6 +103,9 @@
                     <a href="main-products-details.php"><h5 class="text-center">GAMDIAS ARGUS E2 ELITE ARGB ATX MID TOWER CABINET (BLACK) (ARGUS-E2-ELITE)</h5></a>
                     <div class="m-2 justify-content-center d-flex fs-26">
                         <p>₹3,400.00</p>
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>                
                     </div>
                 </div>
             </div>

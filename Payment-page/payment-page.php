@@ -9,6 +9,21 @@
     <!--custom css file link -->
     <link rel="stylesheet" href="style.css">
 
+    <style>
+        .container > form > button{
+            width: 100%;
+            padding:12px;
+            font-size: 17px;
+            background: #27ae60;
+            color:#fff;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .container form button:hover{
+            background: #2ecc71;
+        }       
+    </style>
 
 </head>
 <body>
@@ -95,8 +110,20 @@
         </div>
 
     </div>
+    <button type="button"  id="paymentToastBtn" class="btn btn-primary btn-lg justify-content-center align-items-center" onclick="location.href='../Landing-page/main.php'">Proceed to Checkout<img class="ms-2 me-2 text-light" src="icons/arrow-right-circle.svg" alt=""></button>                
+    <!-- <input type="submit" value="Proceed to checkout" class="submit-btn" onclick="location.href='../Landing-page/main.php'"> -->
+    
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div  class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="icons/check-circle.svg" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Order Placed Sucessfully!</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <input type="submit" value="Proceed to checkout" class="submit-btn">
 </form>
 
 <!-- <?php include "../Product-List/main-footer.php" ?> -->

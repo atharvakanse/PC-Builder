@@ -7,7 +7,14 @@
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
 
-        <title>PC Building Portal</title>
+        <title>PC Builder</title>
+    <style>
+        section#about-us > .profile-cards > .card {
+            margin: 2rem !important;
+        }
+    </style>
+
+    
 
     </head>
 
@@ -33,11 +40,11 @@
 
             <div class="landing-message">
 
-                <h1>Welcome to the  PC Building Portal!test</h1>
+                <h1>Welcome to the  PC Building Portal</h1>
 
                 <p class="">Build your very own PC with a wide range of options.</p>
 
-                <a href="default.asp" class="button">Let's Get Started</a>  <!---- EDIT HERE----->
+                <a href="../Product-List/products-list.php" class="button">Let's Get Started</a>  <!---- EDIT HERE----->
 
             </div>
 
